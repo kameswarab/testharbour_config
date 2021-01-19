@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: master-service
-        image: a63c53801777147b1a5608a7bfb83e6c-804081218.ap-south-1.elb.amazonaws.com/testharbour/master-service:1-0-3
+        image: a63c53801777147b1a5608a7bfb83e6c-804081218.ap-south-1.elb.amazonaws.com/testharbour/master-service:1-0-5
         ports:
         - containerPort: 8090
 ---

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: master-ui
-        image: a63c53801777147b1a5608a7bfb83e6c-804081218.ap-south-1.elb.amazonaws.com/testharbour/master-ui:1-0-2
+        image: 889945364708.dkr.ecr.ap-south-1.amazonaws.com/aggr/aggr:t.2
         ports:
         - containerPort: 8090
 ---
